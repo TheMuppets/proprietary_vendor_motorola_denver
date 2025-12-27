@@ -3135,14 +3135,10 @@ PRODUCT_PACKAGES += \
     libofflinelog \
     libopencv \
     libopestriping \
-    libos \
-    libpowercore \
     libqll10 \
     libqllengine \
     libswregistrationalgo \
-    libsynx \
     libtfestriping \
-    libthreadutils \
     libvidhance \
     libvidhance_dmbr \
     libvidhance_face_stabilizer \

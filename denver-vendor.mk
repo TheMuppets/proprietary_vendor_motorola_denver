@@ -3117,7 +3117,6 @@ PRODUCT_PACKAGES += \
     libjpege \
     liblowlight_ai_portrait.arcsoft \
     libmctfengine_stub \
-    libmfec \
     libmmcamera_bestats \
     libmmcamera_cac3 \
     libmmcamera_faceproc \
@@ -3149,11 +3148,8 @@ PRODUCT_PACKAGES += \
     sensors.ssc \
     vendor.fpsensor.hardware.fpsensorhidlsvc@2.0 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    vendor.qti.hardware.fingerprint@1.0 \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
     com.android.hotwordenrollment.common.util \
     android.hardware.biometrics.fingerprint@2.1-service-chipone \
-    android.hardware.biometrics.fingerprint@2.1-service-fpc \
-    chipone_ident \
-    fpc_ident
+    android.hardware.biometrics.fingerprint@2.1-service-fpc

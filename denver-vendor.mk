@@ -3093,6 +3093,9 @@ PRODUCT_PACKAGES += \
     libaidenoiser \
     libaidenoiserv2 \
     libarcsoft_distortion_correction \
+    libarcsoft_dual_sat \
+    libarcsoft_dual_zoomtranslator \
+    libarcsoft_portrait_distortion_correction \
     libbitmlengine \
     libbitmlenginev2 \
     libcamera_nn_stub \

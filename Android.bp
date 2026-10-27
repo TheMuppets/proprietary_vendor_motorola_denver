@@ -4001,6 +4001,91 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libarcsoft_dual_sat",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libarcsoft_dual_sat.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcamera_metadata",
+                "libchilog",
+                "libcom.qti.chinodeutils",
+                "libmpbase",
+                "libmulticam_video_optical_zoom",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libarcsoft_dual_zoomtranslator",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libarcsoft_dual_zoomtranslator.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libchilog",
+                "liblog",
+                "libsync",
+                "libmulticam_optical_zoom_control",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libarcsoft_portrait_distortion_correction",
+    owner: "motorola",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libarcsoft_portrait_distortion_correction.so",
+            ],
+            shared_libs: [
+                "libmpbase",
+                "libc",
+                "liblog",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libbitmlengine",
     owner: "motorola",
     strip: {
